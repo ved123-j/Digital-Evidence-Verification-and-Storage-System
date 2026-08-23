@@ -34,3 +34,6 @@ contract Registry
         return (e.ipfsHash, e.fileHash, e.fileType, e.flag, e.time, e.uploader);
     }
 }
+
+
+
