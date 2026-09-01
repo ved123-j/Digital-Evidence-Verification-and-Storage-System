@@ -1,12 +1,13 @@
+
 pragma solidity ^0.8.20;
 contract Registry
 {
-    struct Evidence
+    struct Evidence 
     {
         string ipfsHash;
         string fileHash;
         string fileType;
-        bool flag;
+        bool flag; 
         uint256 time;
         address uploader;
     }
@@ -34,6 +35,8 @@ contract Registry
         return (e.ipfsHash, e.fileHash, e.fileType, e.flag, e.time, e.uploader);
     }
 }
+
+
 
 
 
